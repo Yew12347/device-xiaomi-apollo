@@ -1,36 +1,37 @@
-# Reference: <https://postmarketos.org/deviceinfo>
-# Please use double quotes only. You can source this file in shell
-# scripts.
+# Reference: https://postmarketos.org/deviceinfo
+# Use double quotes only.
 
 deviceinfo_format_version="0"
-deviceinfo_name="Xiaomi Mi 10T 5G"
+deviceinfo_name="Xiaomi Mi 10T Pro 5G"
 deviceinfo_manufacturer="Xiaomi"
 deviceinfo_codename="xiaomi-apollo"
 deviceinfo_year="2020"
 deviceinfo_arch="aarch64"
-deviceinfo_flash_kernel_on_update="true"
+
+# DTB
+deviceinfo_dtb="qcom/sm8250-xiaomi-apollo"
 
 # Device related
 deviceinfo_chassis="handset"
-deviceinfo_keyboard="false"
 deviceinfo_external_storage="false"
+deviceinfo_drm="true"
 deviceinfo_screen_width="1080"
 deviceinfo_screen_height="2400"
-deviceinfo_rootfs_image_sector_size="4096"
-
-deviceinfo_dtb="qcom/sm8250"
-deviceinfo_modules_initfs="spi-geni-qcom nt36523_ts"
-deviceinfo_append_dtb="true"
 
 # Bootloader related
 deviceinfo_flash_method="fastboot"
+
+deviceinfo_kernel_cmdline="androidboot.hardware=qcom androidboot.console=ttyMSM0 androidboot.memcg=1 lpm_levels.sleep_disabled=1 msm_rtb.filter=0x237 service_locator.enable=1 androidboot.usbcontroller=a600000.dwc3 swiotlb=2048 loop.max_part=7 cgroup.memory=nokmem,nosocket reboot=panic_warm androidboot.fstab_suffix=qcom androidboot.init_fatal_reboot_target=recovery"
+deviceinfo_bootimg_header_version="2"
+
 deviceinfo_generate_bootimg="true"
-deviceinfo_bootimg_qcdt="false"
-deviceinfo_bootimg_mtk_mkimage="false"
-deviceinfo_bootimg_dtb_second="false"
+
+# Qualcomm / Xiaomi bootimg details
 deviceinfo_flash_pagesize="4096"
-deviceinfo_header_version="0"
-deviceinfo_flash_offset_dtb="0x01f00000"
+deviceinfo_bootimg_qcdt="false"
+deviceinfo_append_dtb="true"
+
+# Offsets (safe defaults for header v2)
 deviceinfo_flash_offset_base="0x00000000"
 deviceinfo_flash_offset_kernel="0x00008000"
 deviceinfo_flash_offset_ramdisk="0x01000000"
