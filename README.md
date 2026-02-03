@@ -52,7 +52,7 @@ The kernel may boot or attempt to boot, but the system is **not usable yet**.
 | `APKBUILD` | pmOS package build configuration |
 | `deviceinfo` | Device metadata for postmarketOS |
 | `modules-initfs` | Kernel modules included in initramfs |
-| `sm8250-xiaomi-apollo.dtb` | DTB extracted from Android (reference only) |
+| `sm8250-xiaomi-apollo.dtb` | DTB extracted from Android Image (temporary i think) |
 
 ---
 
