@@ -72,3 +72,4 @@ pmbootstrap install --android-recovery-zip
 pmbootstrap export
 cd $(dirname $(readlink /tmp/postmarketOS-export/pmos-*.zip))
 ```
+to install adb sideload the zip or use twrp to flash(idk if twrp work)
