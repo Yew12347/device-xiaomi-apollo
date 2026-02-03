@@ -20,6 +20,8 @@ this readme is ai generated with a little big of modification by me because i do
 
 This port is incomplete and may not boot or may only partially boot.
 
+- i did not test the image yet because my bootloader is waiting to be unlocked
+
 Several subsystems are still missing or non-functional, including but not
 limited to:
 
@@ -37,7 +39,6 @@ The kernel may boot or attempt to boot, but the system is **not usable yet**.
 - postmarketOS device target created
 - Bootloader unlock required  
   (Xiaomi enforces a countdown timer before unlocking)
-- i did not test the image yet because my bootloader is waiting to be unlocked
 
 > This port is experimental.  
 > Do **not** expect a fully working phone.
