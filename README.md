@@ -17,8 +17,7 @@ Status highlights:
 
 - Mainline kernel build included
 - base DTS from Android DTB provided
-- postmarketOS target prepared
-- bootloader unlock required (Xiaomi bootloader requires a countdown timer before unlock)
+- postmarketOS target i-phoshootloader unlock required (Xiaomi bootloader requires a countdown timer before unlock)
 
 > This port is experimental — please do not expect a fully working phone yet.  
 > Progress may be slow due to vendor restrictions and lack of upstream drivers.
@@ -44,4 +43,4 @@ Basic steps (pmOS build environment must be set up):
 
 ```sh
 pmbootstrap init
-pmbootstrap install i-phosh
+pmbootstrap install --android-recovery-zip
