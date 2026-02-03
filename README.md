@@ -44,3 +44,5 @@ Basic steps (pmOS build environment must be set up):
 ```sh
 pmbootstrap init
 pmbootstrap install --android-recovery-zip
+pmbootstrap export
+cd $(dirname $(readlink /tmp/postmarketOS-export/pmos-*.zip))
