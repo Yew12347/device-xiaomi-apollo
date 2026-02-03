@@ -9,8 +9,6 @@ Android vendor DTB.
 
 ---
 
----
-
 ## Note
 this readme is ai generated with a little big of modification by me because i dont know hwo to phrase it
 
