@@ -46,3 +46,8 @@ pmbootstrap init
 pmbootstrap install --android-recovery-zip
 pmbootstrap export
 cd $(dirname $(readlink /tmp/postmarketOS-export/pmos-*.zip))
+
+---
+
+## Note
+this readme is ai generated because i dont know how to phrase it
