@@ -37,6 +37,7 @@ The kernel may boot or attempt to boot, but the system is **not usable yet**.
 - postmarketOS device target created
 - Bootloader unlock required  
   (Xiaomi enforces a countdown timer before unlocking)
+- i did not test the image yet because my bootloader is waiting to be unlocked
 
 > This port is experimental.  
 > Do **not** expect a fully working phone.
